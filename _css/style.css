@@ -1,0 +1,39 @@
+* {
+	margin:0;
+	padding:0;
+}
+html, body {
+	height:100%;
+	width:100%;
+}
+img {
+	border:0;
+}
+#wrap {
+	background:#fff;
+	height:100%;
+	position:relative;
+}
+#card {
+	background:#ec1c24;
+	height:310px;
+	left:50%;
+	margin:-155px 0 0 -310px;
+	top:50%;
+	position:absolute;
+	width:620px;
+}
+.logo {
+	margin-bottom:12px;
+	margin-top:114px;
+}
+.logo, .phone, .address, .email {
+	margin-left:34px;
+}
+
+.phone, .address {
+	color:#231f20;
+	font-family:Arial;
+	font-size:11px;
+	margin-bottom:15px;
+}
